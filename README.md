@@ -40,10 +40,10 @@ The directoy structure of the loge utility is mentioned below.
 
 These are the command line options supported by the loge utility
 
-loge			: add the logs to sources based on the configuation available
-loge -c, --config	: generates the config file.
-loge -r, --revert	: reverts all the logs added by the loge utility.
-loge -s, --snuke	: reverts all the changes and removes all the hidden files created by the loge utility
+	loge			: add the logs to sources based on the configuation available
+	loge -c, --config	: generates the config file.
+	loge -r, --revert	: reverts all the logs added by the loge utility.
+	loge -s, --snuke	: reverts all the changes and removes all the hidden files created by the loge utility
 
 
 
