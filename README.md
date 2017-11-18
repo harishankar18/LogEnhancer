@@ -28,7 +28,9 @@ Even the grammer of the loging handle can be specified.
 	GLOBAL_VARIABLES=names of the global variables separated by the comma
 
 
-It uses local disk space for storing the tags information. Once the task is completed there will be command line options for remove all the files and reverting the changes.All the files are stored under .loge directory
+It uses local disk space for storing the tags information. Once the task is completed there will 
+be command line options for remove all the files and reverting the changes.All the files are 
+stored under .loge directory
 
 The directoy structure of the loge utility is mentioned below.
 	.loge
@@ -40,20 +42,20 @@ The directoy structure of the loge utility is mentioned below.
 
 These are the command line options supported by the loge utility
 
-	loge			: add the logs to sources based on the configuation available
-	loge -c, --config	: generates the config file.
-	loge -r, --revert	: reverts all the logs added by the loge utility.
-	loge -s, --snuke	: reverts all the changes and removes all the hidden files created by the loge utility
-
-
+	loge			add the logs to sources based on the configuation available
+	loge -c, --config	generates the config file.
+	loge -r, --revert	reverts all the logs added by the loge utility.
+	loge -s, --snuke	reverts all the changes and removes all the hidden files created by the loge utility
 
 Optimization levels
 
 	1. Performance specific
-		There should be lazy initialization model which skips the generating the tags at the begining of initilization.
-		If the current model is followed then first time running will take time.
-		If there is possibity of running in the background for generating the tags it will be win win situation for both the people.
+		There should be lazy initialization model which skips the generating the tags at 
+		the begining of initilization. If the current model is followed then first time 
+		running will take time. If there is possibity of running in the background for 
+		generating the tags it will be win win situation for both the people.
 
 	2. Language specific
-		Some optimization levels are specific to the language when while adding extreme level of logging it detects readonly
-		branches of the variable and avoids logging in that specific function.
+		Some optimization levels are specific to the language when while adding extreme level 
+		of logging it detects readonly branches of the variable and avoids logging in that 
+		specific function.
