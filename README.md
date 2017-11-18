@@ -24,9 +24,9 @@ The logging handler can be specified based on the language if it is not specifie
 Even the grammar of the logging handle can be specified.
 
 
-    LOGGING_LEVEL=BASIC,MEDIUM,ADVANCED,VERBOSE                    
-    FUNCTIONS=<FUNCTION_NAME> can be separated by the comma(,)
-    GLOBAL_VARIABLES=names of the global variables separated by the comma
+    LOGGING_LEVEL       =   BASIC,MEDIUM,ADVANCED,VERBOSE                    
+    FUNCTIONS           =   <FUNCTION_NAME> can be separated by the comma(,)
+    GLOBAL_VARIABLES    =   names of the global variables separated by the comma
 
 
 It uses local disk space for storing the tags information. Once the task is completed there will be command line options to remove all the files and reverting the changes.All the files are 
